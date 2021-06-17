@@ -1,0 +1,59 @@
+{
+  "blockly": null,
+  "customId": "auth",
+  "defaultValues": {
+    "email": null,
+    "id": null,
+    "login": null,
+    "name": null,
+    "password": null,
+    "picture": null,
+    "theme": null
+  },
+  "entityFullName": "app.entity.User",
+  "entitySimpleName": "User",
+  "errorHandles": {
+    "foreignKey": null,
+    "primaryKey": null
+  },
+  "events": {
+    "afterDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "beforeDelete": null,
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "onGetData": null,
+    "onNavigate": null
+  },
+  "query": "select o from User o where o.login \u003d :login",
+  "queryName": "Autenticar",
+  "queryParamsValues": [
+    {
+      "fieldName": "login",
+      "fieldValue": ""
+    }
+  ],
+  "screen": "",
+  "security": {
+    "email": null,
+    "id": null,
+    "login": null,
+    "name": null,
+    "password": null,
+    "picture": null,
+    "theme": null
+  },
+  "serviceUrl": "api/cronapi/query/auth/",
+  "sourceType": "entityFullName",
+  "verbs": {
+    "DELETE": false,
+    "DELETEAuthorities": null,
+    "GET": false,
+    "GETAuthorities": null,
+    "POST": false,
+    "POSTAuthorities": null,
+    "PUT": false,
+    "PUTAuthorities": null
+  }
+}

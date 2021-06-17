@@ -1,0 +1,87 @@
+{
+	"chatbot": {
+		"watson": {
+			"workspace": "5b814193-a346-4626-847a-102f725e8313",
+			"username": "apikey",
+			"password": "9Uw-nNY4M_zB_XRqJA3JP3Dq4T6ANOU--3buOMm4HMNT",
+			"error": "e57b808c-1281-413b-984e-7ab0fb35428a",
+			"log": true,
+			"typingIndicator": true 
+   		},
+		"facebook": {
+			"page": "aa",
+			"app": "aa",
+			"verify": "aa",
+			"typingIndicator": true
+		},
+		"telegram": {
+			"token": "1470270837:AAH9gLPZUEZxj-0v01VdXrumL52RYm8LFBg",
+			"url": "https://chatbot-furb-homolog.cronapp.io/api/cronapi/chatbot/telegram",
+			"typingIndicator": true
+		},
+		"cronchat":
+		{
+			"token": "1470270837:AAH9gLPZUEZxj-0v01VdXrumL52RYm8LFBg",
+			"url": "https://chatbot-furb-homolog.cronapp.io/api/cronapi/chatbot/cronchat",
+			"urlCronchatApi": "https://cronchatcronapp.cronapp.io/",
+			"botName": "FABI",
+			"botGender": "female",
+			"startPostMessage": "oi",
+			"title": "FABI",
+			"subtitle": "FABI, Assistente Virtual.",
+			"urlAvatar": "https://chatbot-furb-homolog.cronapp.io/img/rosto.png",
+			
+			"typingIndicator": true,
+			
+			"titleColor": "#031831", 
+			"titleFont": "Arial", 
+			"titleFontSize": "16px",
+			"titleFontColor": "White", 
+			"subtitleFont": "#031831",
+			"subtitleFontSize": "18px",
+			"subtitleFontColor": "#666666",
+  
+			"carouselTitleFont": "Arial",
+			"carouselTitleFontSize":"14px", 
+			"carouselsubtitleFont": "Arial",
+			"carouselsubtitleColor": "#f7b82d",
+			"carouselSubtitleFontSize": "0px",
+
+			"carouselQrButtonColor": "#ffab40", 
+			"carouselQrButtonFontColor": "#ffffff",
+			"carouselQrButtonFontSize": "14px",
+			"carouselQrButtonFont": "Arial",
+
+			"carouselQrButtonColorHover": "#d4d4d4",
+			"carouselQrButtonFontColorHover": "white", 
+			"carouselQrButtonFontSizeHover": "14px",
+			"carouselQrButtonFontHover": "Arial",
+
+			"carouselQrButtonClickedColor": "#ffab40", 
+			"carouselQrButtonFontClickedColor": "#d4d4d4",
+			"carouselQrButtonClickedFontSize": "14px",
+			"carouselQrButtonClickedFont": "Arial",
+
+			"ballonFont": "Arial", 
+			"ballonFontSize": "14px", 
+			"ballonFontColor": "Black", 
+			"ballonColor": "#e6eff6", 
+
+			"ballonUserColor": "#e6eff6", 
+			"ballonUserFontColor": "#557285",
+
+			"buttonSendMsgColor": "#031831",
+			"inputFont": "Arial", 
+			"inputFontSize":"14px", 
+			"chatColor": "#ffffff",
+
+			"buttonStartChatColor": "transparent", 
+			"buttonStartImageBackground": "https://chatbot-furb-homolog.cronapp.io/img/avatar.png",
+			"buttonStartImageBackgroundSize": "100%",
+			"buttonStartWidth": "120px",
+			"buttonStartHeight": "120px",
+			"buttonStartBorderRadius": "0%"
+
+		}
+	}
+}

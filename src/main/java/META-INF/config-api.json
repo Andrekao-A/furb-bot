@@ -1,0 +1,18 @@
+{
+  "apiErgon":
+  {
+    "urlAuth":"54.233.134.92/PORTALV2/",
+    "url":"54.233.134.92/PORTALV2/api/rest/",
+    "urlDev":"",
+    "urlSite":"",
+    "user":"admin",
+    "password":"admin"
+
+  },
+
+  "aws":{
+    "url": ""
+  },
+    
+  "published_url":"https://chatbot-furb-homolog.cronapp.io/"
+}

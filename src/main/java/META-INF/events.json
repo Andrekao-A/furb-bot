@@ -1,0 +1,15 @@
+{
+	"onSystemStarts": null,
+	"onLogout": null,
+	"onLogin": null,
+	"onSessionCreate": null,
+	"onSessionDestroy": null,
+	"afterPageRender": null,
+	"afterLoginRender": null,
+	"afterHomeRender": null,
+	"onAuthenticate": null,
+	"onGetRoles": null,
+	"onGetMultitenantId": null,
+	"onChangePassword": null,
+	"onChangeTheme": null
+}

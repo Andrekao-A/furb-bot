@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" name="jdbc/main" password="78q6990sop67rp51" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:mysql://rds-oncronos-shared.cx8gelec2ybx.us-east-1.rds.amazonaws.com:3306/2bfa0130-951a-4b77-8d69-90fbc67ec511?createDatabaseIfNotExist=true" username="2osn0130951n4o77"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/hygia" password="HYGIAWEB" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:h2:file:~/Umvp2;AUTO_SERVER=TRUE;DATABASE_TO_UPPER=FALSE;ALIAS_COLUMN_NAME=TRUE" username="HYGIAWEB"/>
+    <Profile value="DEV"/>
+</Context>

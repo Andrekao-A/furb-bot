@@ -1,0 +1,53 @@
+{
+  "blockly": null,
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "customId": "roles",
+  "defaultValues": {
+    "id": null,
+    "user": null
+  },
+  "entityFullName": "app.entity.Role",
+  "entitySimpleName": "Role",
+  "errorHandles": {
+    "foreignKey": null,
+    "primaryKey": null
+  },
+  "events": {
+    "afterDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "beforeDelete": null,
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "onGetData": null,
+    "onNavigate": null
+  },
+  "query": "select o.id from Role o where o.user.login \u003d :login",
+  "queryName": "Obter Autorização",
+  "queryParamsValues": [
+    {
+      "fieldName": "login",
+      "fieldValue": ""
+    }
+  ],
+  "screen": "",
+  "security": {
+    "id": null,
+    "user": null
+  },
+  "serviceUrl": "api/cronapi/query/roles/",
+  "sourceType": "entityFullName",
+  "verbs": {
+    "DELETE": false,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "GET": false,
+    "GETAuthorities": null,
+    "POST": false,
+    "POSTAuthorities": null,
+    "PUT": false,
+    "PUTAuthorities": null
+  }
+}
